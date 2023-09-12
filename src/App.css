@@ -1,0 +1,99 @@
+#root {
+  margin: 0 auto;
+}
+
+.main-container {
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: rgba(32, 76, 172, 0.623);
+  padding: 10px;
+}
+
+.control-bar {
+  border: 1px solid white;
+  max-width: 460px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin-bottom: 6px;
+  display: grid;
+  padding: 20px 10px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  user-select: none;
+}
+
+.img-box {
+  display: flex;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.active-pad-name {
+  color: black;
+  background-color: rgb(233, 233, 233);
+  padding: 0px 10px;
+  min-width: 60px;
+  min-height: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin: 0 auto;
+  place-items: center;
+  display: flex;
+  font-size: 18px;
+}
+
+.vol-container {
+  text-align: center;
+}
+.vol-img-container {
+  display: flex;
+  place-items: center;
+  padding: 1px;
+}
+
+.FAvol {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.FApow {
+  font-size: 28px;
+  cursor: pointer;
+}
+.FApow:active {
+  font-size: 24px;
+  color: grey;
+}
+
+.padGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 5px;
+  gap: 10px;
+  min-height: 340px;
+  user-select: none;
+}
+
+.drum-pad {
+  border: 1px solid white;
+  background-color: rgb(92, 92, 92);
+  display: flex;
+  min-height: 100px;
+  min-width: 100px;
+
+  padding: 0px 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.pad-txt {
+  padding: 0;
+  margin: 0;
+}
+
+.drum-pad:active,
+.pad-active {
+  box-shadow: inset 0px 0px 20px rgb(151, 151, 151);
+}
